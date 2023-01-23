@@ -1,0 +1,11 @@
+
+{_id: 007
+    postImage: " ",
+        author: "afros",
+        location: "bangalore",
+        description: "nothing",
+        date: "21-11",
+        likes: 0
+        createdAt: 2023-01-22T15:55:07.337+00:00
+        updatedAt: 2023-01-22T15:55:07.337+00:00
+}

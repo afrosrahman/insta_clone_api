@@ -17,6 +17,6 @@ const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => console.log(`Server running on port :${PORT}`));
 mongoose
-    .connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+    .connect("mongodb+srv://afros:rahman@cluster0.edzmyrz.mongodb.net/post", { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log("Database connected Succesfully"))
     .catch((error) => console.log(error.message));
